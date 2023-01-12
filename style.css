@@ -1,0 +1,40 @@
+.head-line
+{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+.head-line svg{
+    width: 430px
+}
+.menus{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  /* 묶어주는 기술이다. */
+    border-top: 1px solid #ebebeb;
+    border-bottom:4px double black;
+}
+.menus button{
+    border: none;
+    background: none;
+    margin: 5px;
+}
+.menus button:hover
+{
+    background-color: lightgrey;
+}
+.news-img-size{
+    max-width: 100%;
+    max-height: 250px;
+}
+
+.news{
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pagenation{
+    display: flex;
+    justify-content: center;
+}
